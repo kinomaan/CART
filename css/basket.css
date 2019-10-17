@@ -1,0 +1,111 @@
+:root{
+  --heightProduct: 87px;
+  --widthProduct: 200px;
+  --heightProductO: 2px;
+  --heightProductTw: 7px;
+  --heightProductTh: 13px;
+  --heightProductF: 19px;
+  --mergLeftProd: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1rem 0;
+    font-weight: normal;
+    text-align: center;
+  }
+
+#content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 500px;
+  height: 45  0px;
+  /*
+  border: 4px outset black;
+  */
+}
+
+#products {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+/*
+  background: aqua;
+  */
+  width: 200px;
+  height: 378px;
+  border: 2px black dashed;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.product_1 {
+  position: relative;
+  left: -5px;
+  padding: .1rem;
+  background: Honeydew;
+  width: var(--widthProduct);
+  height: var(--heightProduct);
+  border: 2px outset black;
+  border-radius: 40px;
+  user-select: none;
+}
+.product_2 {
+  position: relative;
+  padding: .1rem;
+  left: -5px;
+  background: Honeydew;
+  width: var(--widthProduct);
+  height: var(--heightProduct);
+  border: 2px outset black;
+  border-radius: 40px;
+  user-select: none;
+}
+.product_3 {
+  position: relative;
+  padding: .1rem;
+  left: -5px;
+  background: Honeydew;
+  width: var(--widthProduct);
+  height: var(--heightProduct);
+  border: 2px outset black;
+  border-radius: 40px;
+  user-select: none;
+}
+.product_4 {
+  position: relative;
+  padding: .1rem;
+  left: -5px;
+  background: Honeydew;
+  width: var(--widthProduct);
+  height: var(--heightProduct);
+  border: 2px outset black;
+  border-radius: 40px;
+  user-select: none;
+}
+
+.product__price{
+  position: relative;
+/*  margin-left: 82px;*/
+}
+
+.product {
+
+    text-align: center;
+}
+
+#basket {
+  float: right;
+/*  position: absolute;
+ right: 0;
+  top: 0px;*/
+  background: rgb(255, 218, 42);
+  width: 200px;
+  height: 378px;
+  border: 2px black
+  dashed; border-radius: 40px;
+  padding: 10px;
+  left: 200px;
+}
