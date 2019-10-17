@@ -1,0 +1,9 @@
+<div1 id="showCase" draggable="true">
+
+</div>
+<div id="basket" draggable="false" >
+
+</div>
+
+<div1 id="showCase" draggable="true"></div1>
+<div2 id="basket" draggable="true"></div2>
