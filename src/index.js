@@ -32,13 +32,7 @@ document.querySelectorAll('div.product_2')[0],
 document.querySelectorAll('div.product_3')[0],
 document.querySelectorAll('div.product_4')[0]
 ];
-/*
-let htmlCodeProduct_1 = document.getElementsByClassName('product_1')[0] /*`<div id="product_1" class="product_1 product" draggable="true" style="cursor: move;">
-          <span id="product-1-count" class="product__count"></span>
-          <h4 class="product__title">Товар №1</h4>
-          <span class="product__price" data-price="10">€10</span>
-        </div>`;
-*/
+
 let countOrder = [document.querySelectorAll('span#product-1-count')[0],
 document.querySelectorAll('span#product-1-count')[1],
 document.querySelectorAll('span#product-1-count')[2],
@@ -49,12 +43,13 @@ let currentBudget = budget;
 
 currentBudget = document.getElementsByClassName('budget')[0];
 currentBudget.innerHTML = budget;
+/*
 const products1 = document.getElementsByClassName('product'),
 basketElement = document.getElementsByClassName('basket')[0],
 basketContainerElement = document.getElementsByClassName('basket__products-container')[0],
 progressBar = document.getElementsByClassName('basket__progress-bar')[0];
+*/
 
-//cln.style.width = '100px';
 let d = document.getElementById("basket");
                    el1.setAttribute('draggable', true);
                    el1.style.cursor = 'move';
@@ -84,17 +79,9 @@ let d = document.getElementById("basket");
                    targetElement = ev.target;
 //см. в консоли DragEvent
           });
-/*document.addEventListener('dragstart', function(e){
-  targetElement = e.target;
-  console.log(targetElement);
-});*/
+
           d.addEventListener(`dragover`, ev => ev.preventDefault()); // позволить продолжить бросание
                 d.addEventListener(`drop`, ev => {
-
-                       //       console.log(targetElement);
-                       //       console.log(products[1]);
-                       //console.log(document.getElementById('product-1-count')./*getElementsByTagName('span').*/textContent = "fdf");
-
                        //клонирование 1 - го товара
                        if(targetElement.outerHTML == products[0].outerHTML && budget >= 10){
                          cln1.removeAttribute('id');
