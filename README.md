@@ -1,2 +1,2 @@
-# demo
+# kinomaan.github.io
 //example
