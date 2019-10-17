@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head><title>EXP_2</title><meta charset="utf-8">
+    <link rel="stylesheet" href="./basket.css">
+    <style></style>
+  </head>
+  <body>
+
+    <h1>Корзина</h1>
+    <h4 id = "author" title = "Dmitriy_Raskosov">Dmitriy Raskosov</h4>
+    <h2 id="H">Общий бюджет 100$ Баланс на текущий момент: <span class="budget" ></span></h2>
+    <div id = "content">
+      <div id="products" draggable="false">
+        <div id="product_1" class="product_1 product" draggable = "true">
+          <span id="product-1-count" class="product__count"></span>
+          <h4 class="product__title">Товар №1</h3>
+          <span class="product__price" data-price="10">$10</span>
+        </div>
+        <div id="product_2" class="product_2 product" draggable = "true">
+          <span id="product-2-count" class="product__count"></span>
+          <h4 class="product__title">Товар №2</h3>
+          <span class="product__price" data-price="5">$5</span>
+        </div>
+        <div id="product_3" class="product_3 product" draggable = "true">
+          <span id="product-3-count" class="product__count"></span>
+          <h4 class="product__title">Товар №3</h3>
+          <span class="product__price" data-price="50">$50</span>
+        </div>
+        <div id="product_4" class="product_4 product" draggable = "true">
+          <span id="product-4-count" class="product__count"></span>
+          <h4 class="product__title" >Товар №4</h3>
+          <span class="product__price" data-price="20">$20</span>
+        </div>
+      </div>
+      <div id="basket" class="basket" draggable="true"></div>
+    </div>
+
+    <script src="./index.js"></script>
+ </body>
