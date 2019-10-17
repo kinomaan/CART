@@ -158,6 +158,10 @@ let d = document.getElementById("basket");
                         el2.setAttribute('draggable', false);
                         el3.setAttribute('draggable', false);
                         el4.setAttribute('draggable', false);
+                        cln1.setAttribute('draggable', false);
+                        cln2.setAttribute('draggable', false);
+                        cln3.setAttribute('draggable', false);
+                        cln4.setAttribute('draggable', false);
                         document.querySelector('div#basket').style.background = "red"
                       }
                   });
