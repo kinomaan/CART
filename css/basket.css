@@ -14,81 +14,104 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 
+
+h4{
+  margin: 1% 10%;
+  padding: 24px 0px 0px 71px;
+}
+
 #content {
   position: relative;
   margin-left: auto;
   margin-right: auto;
 
   width: 500px;
-  height: 45  0px;
+  height: 450px;
   /*
   border: 4px outset black;
   */
 }
 
 #products {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-/*
-  background: aqua;
-  */
+  float: left;
   width: 200px;
   height: 378px;
   border: 2px black dashed;
-  border-radius: 40px;
+  border-radius: 48px;
   padding: 10px;
   font-size: 20px;
 }
 
 .product_1 {
+  background-image: url("../src/printer.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: 4% 50%;
+
   position: relative;
   left: -5px;
   padding: .1rem;
-  background: Honeydew;
   width: var(--widthProduct);
   height: var(--heightProduct);
   border: 2px outset black;
-  border-radius: 40px;
+  border-radius: 48px;
   user-select: none;
 }
 .product_2 {
+  background-image: url("../src/headphones.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: 4% 50%;
+
   position: relative;
   padding: .1rem;
   left: -5px;
-  background: Honeydew;
+/*  background: Honeydew;*/
   width: var(--widthProduct);
   height: var(--heightProduct);
   border: 2px outset black;
-  border-radius: 40px;
+  border-radius: 48px;
   user-select: none;
 }
 .product_3 {
+  background-image: url("../src/phone.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: 4% 50%;
+
   position: relative;
   padding: .1rem;
   left: -5px;
-  background: Honeydew;
   width: var(--widthProduct);
   height: var(--heightProduct);
   border: 2px outset black;
-  border-radius: 40px;
+  border-radius: 48px;
   user-select: none;
 }
 .product_4 {
+  background-image: url("../src/camera.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: 4% 50%;
+
   position: relative;
   padding: .1rem;
   left: -5px;
-  background: Honeydew;
   width: var(--widthProduct);
   height: var(--heightProduct);
   border: 2px outset black;
-  border-radius: 40px;
+  border-radius: 48px;
   user-select: none;
 }
 
 .product__price{
   position: relative;
-/*  margin-left: 82px;*/
+  margin: 103px 0px 8px 74px;
+}
+
+.product__count{
+  position: absolute;
+  margin: 0px 0px 0px 32px;
 }
 
 .product {
@@ -98,14 +121,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #basket {
   float: right;
-/*  position: absolute;
- right: 0;
-  top: 0px;*/
-  background: rgb(255, 218, 42);
+  background: Honeydew;
   width: 200px;
   height: 378px;
-  border: 2px black
-  dashed; border-radius: 40px;
+  border: 2px black dashed;
+  border-radius: 48px;
   padding: 10px;
-  left: 200px;
+  font-size: 20px;
+
 }
